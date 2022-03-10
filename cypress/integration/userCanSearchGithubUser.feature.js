@@ -6,7 +6,7 @@ describe("User can search for another user on Github", () => {
     cy.visit("/");
   });
 
-  it("is expected to see the search field", () => {
+    it("is expected to see the search field", () => {
     cy.get("[data-cy=search_input]").should("be.visible");
   });
 });
