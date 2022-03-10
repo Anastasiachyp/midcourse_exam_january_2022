@@ -10,7 +10,9 @@ const GHSearch = () => {
         name="search"
         placeholder="Input GH username"
       />
-      <Button name="search">Search</Button>
+      <Button
+        data-cy="search_button"
+        name="search">Search</Button>
     </>
   );
 };
